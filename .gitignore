@@ -1,0 +1,35 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.VENV/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Output files
+output_video/*.mp4
+
+# Input video files (optional, if you don't want to track input videos)
+input_video/*.MTS
+input_video/*.mp4
+input_video/*.avi
+
+# Model weights (optional, if you want to avoid committing large files)
+*.pt
+*.pth
